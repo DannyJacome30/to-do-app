@@ -11,6 +11,10 @@
     border-bottom: 1px solid #949abf;
 }
 
+.counter__subtitle--loading{
+    opacity: 25%;
+}
+
 .counter__subtitle{
     text-align: center;
     font-weight: normal;

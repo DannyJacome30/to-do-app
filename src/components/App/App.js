@@ -32,13 +32,17 @@ function App() {
 
   return(
     <React.Fragment>
-      <ToDoHeader>
+      <ToDoHeader >
         <ToDoCounter
           totalToDos={totalToDos}
-          completedToDos={completedToDos} />      
+          completedToDos={completedToDos} 
+          loading = {loading}
+        />      
         <ToDoSearch
           searchValue ={searchValue}
-          setSearchValue ={setSearchValue} /> 
+          setSearchValue ={setSearchValue} 
+          loading = {loading}
+        /> 
       </ToDoHeader>
       <ToDoList
         error={error}

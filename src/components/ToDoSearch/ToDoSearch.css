@@ -7,13 +7,16 @@
 
 .search__input{
     border-radius: 5px;
-    border: 1px;
     padding: 3px 8px;
     height: 24px;
     text-align: center;
     margin-right: 14px;
     width: 100%;
     color: #414141;
+}
+
+.search__input:disabled{
+    opacity: 25%;
 }
 
 .btn__secundary ,.btn__search{
