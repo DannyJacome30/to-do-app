@@ -1,5 +1,4 @@
-import React from "react"
-import { ToDoContext } from "../ToDoContext";
+import React from "react";
 import './ToDoSearch.css';
 
 function ToDoSearch({searchValue,setSearchValue}){

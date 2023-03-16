@@ -1,6 +1,5 @@
 import React from "react";
-import logo from "../../assets/Logo_DJ_2.svg"
-import { ToDoContext } from "../ToDoContext";
+import logo from "../../assets/Logo_DJ_2.svg";
 import './ToDoCounter.css';
 
 function ToDoCounter ({totalToDos,completedToDos}){
