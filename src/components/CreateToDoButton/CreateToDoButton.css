@@ -1,0 +1,12 @@
+.btn__primary,.btn__add{
+    background-color: #6269c5;
+    border: 0px;
+    border-radius: 50%;
+    padding: 8px 14px;
+    color: white;
+    font-size: x-large;
+    cursor: pointer;
+    position: fixed;
+    bottom: 32px;
+    z-index: 1;
+}

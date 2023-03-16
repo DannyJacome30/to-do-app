@@ -1,0 +1,32 @@
+.Icon-container {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    width: 24px;
+    /* background-color: #CCC; */
+  }
+  .Icon-container--check {
+    align-self: center;
+    margin: 0px 12px;
+  }
+  .Icon-container--delete {
+    position: relative;
+    align-self: self-start;
+    top: -4px;
+    right: -4px;
+    
+  }
+  
+  .Icon-svg {
+    width: 24px;
+    height: 24px;
+    transition: fill .15s;
+  }
+  .Icon-container:hover .Icon-svg--check {
+    fill: #90a8ff;
+  }
+  .Icon-container:hover .Icon-svg--delete {
+    fill: darkred;
+  }

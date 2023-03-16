@@ -1,0 +1,26 @@
+.counter__title-primary{
+    margin: 0px;
+    text-align: center;
+    padding-top: 24px;
+    font-weight: 600;
+}
+
+.title{
+    width: 100%;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #949abf;
+}
+
+.counter__subtitle{
+    text-align: center;
+    font-weight: normal;
+    font-size: medium;
+    padding: 14px 0px;
+}
+
+.counter__img{
+    height: 88px;
+    position: fixed;
+    top: 20px;
+    left:80px;
+}

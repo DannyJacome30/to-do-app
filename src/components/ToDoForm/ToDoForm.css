@@ -1,0 +1,38 @@
+.form__add-To-Do{
+    background-color: #f2fbff;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+}
+
+.form__title{
+    margin: 32px 0px;
+    color: black;
+}
+
+.form__input{
+    border-radius: 8px;
+    border: none;
+    width: 60%;
+    height: 30%;
+}
+
+.form__btns{
+    margin: 16px 0px 64px 0px;
+}
+
+.btn__secondary{
+    background-color: #4d5071;
+    border: none;
+    border-radius: 8px;
+    height: 31px;
+    color: white;
+    padding: 0px 16px;
+    width: 100px;
+    margin: 0px 4px;
+}

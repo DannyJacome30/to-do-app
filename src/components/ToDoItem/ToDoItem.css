@@ -1,0 +1,55 @@
+.item{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    background: #e1e0e0;
+    border-radius: 12px;
+    margin: 8px 0px;
+    justify-content: space-between;
+    
+}
+
+.item__text{
+    font-size: small;
+}
+
+.item__text__done{
+    text-decoration: line-through;
+}
+
+/*
+.item__check{
+    padding: 4px 8px;
+    margin: 0px 8px;
+    background: #3d4a77;
+    border-radius: 12px;
+    color: white;
+    font-size: small;
+    font-weight: normal;
+    align-self: center
+}
+
+.item__check:hover, .item__check__checked{
+    background: #90a8ff;
+    color: white;
+}
+
+.item__delete{
+    padding: 4px 8px;
+    border-radius: 16px;
+    background-color: #ffe1e1;
+    font-size: x-small;
+    font-weight: normal;
+    color: darkred;
+    position: relative;
+    align-self: self-start;
+    top: -4px;
+    right: -4px;
+}
+
+.item__delete:hover{
+    border: 1px solid darkred;
+    background: white;
+    color: darkred;
+    font-weight: bold;
+}*/

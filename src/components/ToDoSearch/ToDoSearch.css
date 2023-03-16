@@ -1,0 +1,27 @@
+.search{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin: 0px 16px;
+}
+
+.search__input{
+    border-radius: 5px;
+    border: 1px;
+    padding: 3px 8px;
+    height: 24px;
+    text-align: center;
+    margin-right: 14px;
+    width: 100%;
+    color: #414141;
+}
+
+.btn__secundary ,.btn__search{
+    border: 0px;
+    border-radius: 50%;
+    padding: 6px 10px;
+    color: #89b6db;
+    font-size: small;
+    font-weight: bolder;
+    cursor: pointer;
+}
