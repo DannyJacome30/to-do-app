@@ -10,6 +10,7 @@ import { ToDoForm } from '../ToDoForm/index.js';
 import { ToDoError } from '../ToDoError/index.js';
 import { ToDoLoading } from '../ToDoLoading/index.js';
 import { ToDoEmpty } from '../ToDoEmpty/index.js';
+import { ToDoEmptySearchResult } from '../ToDoEmptySearchResult/index.js';
 import { ToDoHeader } from '../ToDoHeader/index.js';
 
 
@@ -43,9 +44,11 @@ function App() {
         error={error}
         loading = {loading}
         searchedTodos={searchedTodos}
+        totalToDos = {totalToDos}
         onError = {()=><ToDoError/>}
         onLoading = {()=><ToDoLoading/>}
         onEmpty = {()=><ToDoEmpty/>}
+        onEmptySearchResults = {() => <ToDoEmptySearchResult searchValue={searchValue} /> }
         render = {todo => ( 
           <ToDoItem 
             key={todo.text}

@@ -7,8 +7,8 @@ function ToDoList(props){
         <section className="list__container">
             {props.error && props.onError()}
             {props.loading && props.onLoading()}
-            {(!props.loading && !props.searchedTodos.length) && props.onEmpty}
-            
+            {(!props.loading && !props.totalToDos) && props.onEmpty()}
+            {(!!props.totalToDos && !props.searchedTodos.length) && props.onEmptySearchResults()}
             <ul className="list-items">
                 {props.searchedTodos.map(props.render)}
             </ul>
