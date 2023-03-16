@@ -3,8 +3,7 @@ import logo from "../../assets/Logo_DJ_2.svg"
 import { ToDoContext } from "../ToDoContext";
 import './ToDoCounter.css';
 
-function ToDoCounter (){
-    const {totalToDos, completedToDos}=React.useContext(ToDoContext)
+function ToDoCounter ({totalToDos,completedToDos}){
     return(
         <div className="title">
             <img className="counter__img" alt="logo" src={logo}/>

@@ -10,6 +10,7 @@ import { ToDoForm } from '../ToDoForm/index.js';
 import { ToDoError } from '../ToDoError/index.js';
 import { ToDoLoading } from '../ToDoLoading/index.js';
 import { ToDoEmpty } from '../ToDoEmpty/index.js';
+import { ToDoHeader } from '../ToDoHeader/index.js';
 
 function AppUI() {
   const {
@@ -19,11 +20,22 @@ function AppUI() {
     completeTodo,
     deleteTodo,
     openModal, 
-    setOpenModal} = React.useContext(ToDoContext);
+    setOpenModal,
+    totalToDos, 
+    completedToDos,
+    searchValue,
+    setSearchValue,} = React.useContext(ToDoContext);
 return(
     <React.Fragment>
-      <ToDoCounter/>      
-      <ToDoSearch/> 
+      <ToDoHeader>
+        <ToDoCounter
+          totalToDos={totalToDos}
+          completedToDos={completedToDos} />      
+        <ToDoSearch
+          searchValue ={searchValue}
+          setSearchValue ={setSearchValue} /> 
+      </ToDoHeader>
+      
       <ToDoList>
         {error && <ToDoError/>} 
         {loading && <ToDoLoading/>}
