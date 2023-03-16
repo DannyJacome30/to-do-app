@@ -1,9 +1,7 @@
 import React from "react";
 import { useLocalStorage } from "./useLocalStorage";
 
-const ToDoContext = React.createContext();
-
-function ToDoProvider (props){
+function useToDo (){
     const {
         item:todos,
         saveItem:saveToDos,
@@ -51,7 +49,7 @@ function ToDoProvider (props){
         saveToDos(newTodos);
       };
     return(
-        <ToDoContext.Provider value={{
+       {
             loading,
             error,
             totalToDos,
@@ -64,11 +62,9 @@ function ToDoProvider (props){
             deleteTodo,
             openModal, 
             setOpenModal,
-        }}>
-            {props.children}
-        </ToDoContext.Provider>
+        }
     )
 
 }
 
-export {ToDoContext,ToDoProvider};
+export {useToDo};
