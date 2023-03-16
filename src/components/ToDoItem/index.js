@@ -4,15 +4,7 @@ import { DeleteIcon } from "../ToDoIcon/DeleteIcon";
 import './ToDoItem.css';
 
 function ToDoItem (props){
-   /* <span 
-                onClick={props.onComplete} 
-                className={`item__check ${props.completed && 'item__check__checked'}`} 
-                >
-                √
-            </span>
-             <span onClick={props.onDelete} className="item__delete">
-             X
-         </span>*/
+
     return (
         <li className="item">
             <CompleteIcon

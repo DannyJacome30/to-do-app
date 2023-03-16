@@ -49,7 +49,7 @@ function App() {
         onLoading = {()=><ToDoLoading/>}
         onEmpty = {()=><ToDoEmpty/>}
         onEmptySearchResults = {() => <ToDoEmptySearchResult searchValue={searchValue} /> }
-        render = {todo => ( 
+        /* render = {todo => ( 
           <ToDoItem 
             key={todo.text}
             text={todo.text} 
@@ -57,8 +57,21 @@ function App() {
             onComplete={()=>completeTodo(todo.text)}
             onDelete={()=>deleteTodo(todo.text)}
           />
-        )}
-      />
+        )} */
+        > 
+            {todo => (
+               <ToDoItem 
+               key={todo.text}
+               text={todo.text} 
+               completed={todo.completed} 
+               onComplete={()=>completeTodo(todo.text)}
+               onDelete={()=>deleteTodo(todo.text)}
+             />
+            )}
+        </ToDoList>
+        
+        
+      
       
         {!!openModal && (
         <Modal>
