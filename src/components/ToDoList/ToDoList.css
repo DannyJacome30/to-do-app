@@ -2,7 +2,7 @@
     padding: 0px;
 }
 
-section{
+.list__container{
     width: 90%;
     max-width: 60vh;
 }
