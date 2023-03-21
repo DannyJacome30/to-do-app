@@ -1,0 +1,38 @@
+.cambios__container__background{
+    text-align: center;
+    background: rgba(32,35,41,.8);
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.cambios__container{
+    background-color: #f2fbff;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 50%;
+}
+
+.cambios__text{
+    margin: 0px 0px 20px 0px;
+    width: 75%;
+}
+
+.button__cambios{
+    padding: 4px 12px;
+    background-color: white;
+    color: #6269c5;
+    border: 1px solid grey;
+    border-radius: 4px;
+}

@@ -4,6 +4,6 @@
     text-align: center;
     font-size: larger;
     font-weight: medium;
-    height: 50vh;
+    max-height: 40vh;
     align-items: center;
 }

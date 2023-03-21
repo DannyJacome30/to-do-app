@@ -8,6 +8,7 @@ function ToDoItem (props){
     return (
         <li className="item">
             <CompleteIcon
+                fill="yellow"
                 completed={props.completed}
                 onComplete={props.onComplete}
                 >

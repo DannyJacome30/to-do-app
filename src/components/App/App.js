@@ -6,6 +6,7 @@ import {ToDoList} from '../ToDoList/index.js';
 import {ToDoItem} from '../ToDoItem/index.js';
 import { useToDo } from './useToDo.js';
 import { Modal } from '../Modal/index.js';
+import { ChangeAlert } from '../ChangeAlert/index.js';
 import { ToDoForm } from '../ToDoForm/index.js';
 import { ToDoError } from '../ToDoError/index.js';
 import { ToDoLoading } from '../ToDoLoading/index.js';
@@ -27,7 +28,8 @@ function App() {
     completedToDos,
     searchValue,
     setSearchValue,
-    addTodo,} = useToDo();
+    addTodo,
+    sincronizeToDos,} = useToDo();
 
 
   return(
@@ -84,6 +86,9 @@ function App() {
           </Modal>
         )}
       <CreateToDoButton setOpenModal={setOpenModal}/>
+      <ChangeAlert
+        sincronize={sincronizeToDos}
+        />
     </React.Fragment> 
 );
 }

@@ -2,36 +2,35 @@
     text-decoration: none;
     display: flex;
     flex-direction: row;
-    background: linear-gradient(90deg,#f7f6f6,#ece5ff,#e6e6e6);
+    background: #00000038;
     border-radius: 12px;
     margin: 8px 0px;
     justify-content: space-between;
-    
 }
 
 .item__text__loading{
     font-size: small;
 }
 .item__check__loading{
-    padding: 4px 8px;
+    padding: 10px;
     margin: 0px 8px;
-    background: #8e919a;
-    border-radius: 12px;
+    background: #fff;
+    border-radius: 50%;
     color: white;
     font-size: small;
     font-weight: normal;
-    align-self: center
+    align-self: center;
 }
 
 .item__delete__loading{
-    padding: 4px 8px;
-    border-radius: 16px;
-    background-color: #c9adad;;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #00000057;
     font-size: x-small;
     font-weight: normal;
-    color: rgb(49, 22, 22);
+    color: rgb(202, 202, 202);
     position: relative;
     align-self: self-start;
     top: -4px;
     right: -4px;
-}
+  }
