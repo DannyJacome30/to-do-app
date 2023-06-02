@@ -1,4 +1,5 @@
-import React from "react";
+
+import React, {useEffect} from 'react';
 
 function useLocalStorage(itemName,initialValue){
     const [sincronizedItem,setsincronizedItem] = React.useState(true);
@@ -7,7 +8,7 @@ function useLocalStorage(itemName,initialValue){
     const [item, setItem]= React.useState(initialValue);
   
     //simula el uso de un api para poder tener loading error
-    React.useEffect(()=>{
+    useEffect(()=>{
       setTimeout (()=>{
         try {
           const localStorageToDos = localStorage.getItem(itemName);
