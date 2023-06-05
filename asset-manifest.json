@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/to-do-app/static/css/main.6e0df739.css",
+    "main.js": "/to-do-app/static/js/main.42347fee.js",
+    "static/media/Logo_DJ_2.svg": "/to-do-app/static/media/Logo_DJ_2.26e3b7d62e6b0448f7f07aba53547cb8.svg",
+    "static/media/check.svg": "/to-do-app/static/media/check.9e0ff9c35b94c650a5a37af2c035162b.svg",
+    "index.html": "/to-do-app/index.html",
+    "static/media/close.svg": "/to-do-app/static/media/close.f273c12802bdf5b003dee6688fbbb049.svg",
+    "main.6e0df739.css.map": "/to-do-app/static/css/main.6e0df739.css.map",
+    "main.42347fee.js.map": "/to-do-app/static/js/main.42347fee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e0df739.css",
+    "static/js/main.42347fee.js"
+  ]
+}
